@@ -1,9 +1,12 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.defaultPackageManager": "ms-python.python:pip",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
     "python-envs.pythonProjects": [],
     "python.defaultInterpreterPath": "/home/shehab1/miniconda3/bin/python",
     "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "cursorpyright.analysis.extraPaths": [
         "${workspaceFolder}"
     ]
 }
