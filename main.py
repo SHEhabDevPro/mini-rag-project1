@@ -1,8 +1,6 @@
 from fastapi import FastAPI
+from routes import base
 app = FastAPI()
 
-@app.get("/")
-
-@app.get("/welcome")
-def root():
-    return {"status": "🔥 FastAPI is alive"}
+app.include_router(base.base_router)
+ 
